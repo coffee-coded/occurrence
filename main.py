@@ -10,6 +10,8 @@ def fix_count_lower(number, lower_cnt, counter):
 
 
 def fix_count_upper(number, upper_cnt, counter):
+    # for fixing stuffs
+    # done
     while upper_cnt % 10 != 0:
         num = upper_cnt
         while num > 0:
@@ -18,6 +20,10 @@ def fix_count_upper(number, upper_cnt, counter):
             num = num / 10
         upper_cnt = upper_cnt - 1
     return counter, upper_cnt
+
+
+def second:
+    pass
 
 
 def occurrence(number, cnt_upper, cnt_lower):
